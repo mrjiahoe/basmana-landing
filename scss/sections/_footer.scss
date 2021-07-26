@@ -5,46 +5,6 @@
 	background-color: $footer;
 }
 
-// STYLE THE CONTACT-BOX CONTENT
-.contact-box {
-	position: relative;
-
-	&__icon {
-		width: 2rem;
-		stroke: $primary;
-		padding-top: 0.5rem;
-
-		@include media-breakpoint-up(sm) {
-			width: 4rem;
-		}
-	}
-
-	&__info {
-		padding: 0.4rem;
-		font-weight: bold;
-
-		&--title {
-			color: $white;
-			font-size: 1rem;
-			text-decoration: none;
-
-			@include media-breakpoint-up(sm) {
-				font-size: 1.4rem;
-			}
-		}
-
-		&--subtitle {
-			color: $gray-600;
-			font-size: 0.8rem;
-			text-decoration: none;
-
-			@include media-breakpoint-up(sm) {
-				font-size: 1rem;
-			}
-		}
-	}
-}
-
 // STYLE THE SOCIAL MEDIA CONTENT
 .footer-sm {
 	a {
@@ -116,4 +76,8 @@
 		font-size: 1rem;
 		@include absoluteCenter;
 	}
+}
+
+.social-icons i:hover {
+	color: $mainColor;
 }

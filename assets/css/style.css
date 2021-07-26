@@ -11011,7 +11011,7 @@ textarea.form-control-lg {
   text-align: center;
 }
 .price-table th:nth-child(2) {
-  width: 40rem;
+  width: 35rem;
 }
 .price-table table,
 .price-table th,
@@ -11031,26 +11031,12 @@ textarea.form-control-lg {
 }
 
 .cta-info {
-  margin: 1rem 0;
-}
-.cta-info__list {
-  position: relative;
-  list-style-type: none;
-  display: block;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  margin-bottom: 0.7rem;
-}
-.cta-info__list li::before {
-  font-family: "Font Awesome 5 Free";
-  content: "";
-  font-weight: 600;
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
+  margin-top: auto;
+  margin-left: auto;
 }
 
 .form {
-  padding: 3rem;
+  padding: 2%;
 }
 .form button {
   border: none;
@@ -11062,21 +11048,18 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
-.footer {
-  background-color: #151414;
-}
-
 .contact-box {
   position: relative;
+  width: 100%;
 }
 .contact-box__icon {
-  width: 2rem;
+  width: 1.5rem;
   stroke: #e31f51;
   padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {
-    width: 4rem;
+    width: 3rem;
   }
 }
 .contact-box__info {
@@ -11084,7 +11067,7 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 .contact-box__info--title {
-  color: #fff;
+  color: #000;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -11102,6 +11085,10 @@ textarea.form-control-lg {
   .contact-box__info--subtitle {
     font-size: 1rem;
   }
+}
+
+.footer {
+  background-color: #151414;
 }
 
 .footer-sm a {
@@ -11165,6 +11152,20 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.social-icons i:hover {
+  color: #e31f51;
+}
+
+.img-phone {
+  width: auto;
+  max-height: 500px;
+  margin-left: 25%;
+}
+
+.app-icon {
+  height: -50px;
 }
 
 /*# sourceMappingURL=style.css.map */
