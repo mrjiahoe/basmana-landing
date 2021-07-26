@@ -9,6 +9,15 @@
 	);
 }
 
+// TEXT GRADIENT
+@mixin textGradient {
+	color: linear-gradient(
+		to right,
+		rgba($primary, 0.95),
+		rgba($secondary, 0.95)
+	);
+}
+
 // ABSOLUTE CENTER
 @mixin absoluteCenter {
 	position: absolute;

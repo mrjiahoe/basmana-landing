@@ -9,6 +9,6 @@
 @use 'sections/testimonials';
 @use 'sections/faq';
 @use 'sections/portfolio';
-@use 'sections/get-started';
+@use 'sections/contact';
 @use 'sections/footer';
 /*# sourceMappingURL=style.css.map */

@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 700;
   margin: 0;
-  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  border: 0.1rem solid rgba(0, 0, 0, 0.6);
   background-color: #fff;
 }
 @media (max-width: 575.98px) {
@@ -10862,6 +10862,10 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(227, 31, 81, 0.95), rgba(209, 34, 227, 0.95));
 }
 
+.textGradient {
+  color: linear-gradient(to right, rgba(227, 31, 81, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 .menu {
   color: #fff;
 }
@@ -10871,6 +10875,19 @@ textarea.form-control-lg {
 
 .logo-size img {
   width: 10rem;
+}
+
+.navColor .nav-link {
+  color: linear-gradient(to right, rgba(227, 31, 81, 0.95), rgba(209, 34, 227, 0.95));
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  color: red !important;
+  border: solid 1px red;
+}
+
+.navbar .navbar-toggler .icon-bar {
+  background: red !important;
 }
 
 .intro-section {
@@ -10985,11 +11002,27 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.price-table {
+  height: 2rem;
+}
+.price-table th {
+  width: 20rem;
+  height: 3rem;
+  text-align: center;
+}
+.price-table th:nth-child(2) {
+  width: 40rem;
+}
 .price-table table,
 .price-table th,
 .price-table tr,
 .price-table td {
-  border: 1px solid black;
+  border: 1px solid #e31f51;
+  padding-left: 1rem;
+}
+.price-table td:nth-child(2) {
+  padding: none;
+  text-align: center;
 }
 
 .get-started {
@@ -10998,7 +11031,6 @@ textarea.form-control-lg {
 }
 
 .cta-info {
-  padding: 3rem;
   margin: 1rem 0;
 }
 .cta-info__list {
@@ -11031,7 +11063,6 @@ textarea.form-control-lg {
 }
 
 .footer {
-  padding-top: 1rem;
   background-color: #151414;
 }
 

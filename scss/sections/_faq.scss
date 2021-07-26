@@ -1,8 +1,30 @@
+@use '../custom' as *;
+
 .price-table {
+	height: 2rem;
+	th {
+		width: 20rem;
+		height: 3rem;
+		text-align: center;
+	}
+	th:nth-child(2) {
+		width: 40rem;
+	}
 	table,
 	th,
 	tr,
 	td {
-		border: 1px solid black;
+		border: 1px solid $primary;
+		padding-left: 1rem;
+	}
+	td:nth-child(2) {
+		padding: none;
+		text-align: center;
 	}
 }
+
+// .price-table {
+// 	.td:nth-child(1) {
+// 		text-align: center;
+// 	}
+// }

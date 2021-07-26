@@ -15,3 +15,18 @@
 		width: 10rem;
 	}
 }
+
+.navColor {
+	.nav-link {
+		@include textGradient;
+	}
+}
+
+.navbar-toggler .navbar-toggler-icon {
+	color: red !important;
+	border: solid 1px red;
+}
+
+.navbar .navbar-toggler .icon-bar {
+	background: red !important;
+}
