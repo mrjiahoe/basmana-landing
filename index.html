@@ -6,11 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>BasMana</title>
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href="assets/css/fontawesome.css" />
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
@@ -19,12 +22,14 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 	<link rel="icon" href="./images/logo-3.png">
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/fontawesome.css" />
 </head>
 
 <body>
 	<!-- START THE NAVBAR SECTION -->
 	<!-- <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top"> -->
-	<nav class="navbar navbar-expand-lg menu shadow fixed-top bg-white">
+	<nav class="navbar navbar-expand-lg menu shadow fixed-top bg-white navColor">
 		<div class="container-fluid">
 			<!-- INSERT LOGO HERE -->
 			<a class="navbar-brand logo-size" href="#">
@@ -34,7 +39,7 @@
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse justify-content-end navColor" id="navbarNav">
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -335,27 +340,26 @@
 	<!-- START SECTION - APP DOWNLOAD LINKS -->
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-3">
 				<div class="services__content">
-					<div class="icon d-block fas fa-paper-plane"></div>
-					<h3 class="display-3--title mt-1">Mobile App</h3>
+					<div class="icon d-block "></div>
+					<h3 class="display-3--title bi bi-download"> Mobile App</h3>
 					<p class="lh-lg">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						Similique obcaecati reiciendis doloremque voluptatem pariatur.
 						Ullam earum aliquid alias placeat laboriosam magnam molestias
 						error iure recusandae consectetur, voluptatum fugiat.
 					</p>
-					<button type="button" class="rounded-pill btn-rounded border-primary">
-						Download
-						<span class="app-icon"><i class="fab fa-apple"></i></span>
-					</button>
-					<button type="button" class="rounded-pill btn-rounded border-primary">
-						Download
-						<span class="app-icon"><i class="fab AiOutlineAndroid"></i></span>
-					</button>
+
+					<div class="app-link">
+						<a href="" class="col-lg-5 col-sm-4 col-6 col-md-5 absoluteCenter"><img
+								src="./images/app-store-badge.svg" alt=""></a>
+						<a href="" class="col-lg-5 col-sm-4 col-6 col-md-5 absoluteCenter"><img
+								src="./images/google-play-badge.svg" alt=""></a>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services">
 				<div class="services__pic">
 					<img src="images/Iphone-X.png" alt="phone" class="img-fluid img-phone" />
 				</div>

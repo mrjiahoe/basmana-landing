@@ -15,18 +15,58 @@
 		width: 10rem;
 	}
 }
-
-.navColor {
+#navbar-nav {
 	.nav-link {
 		@include textGradient;
 	}
 }
 
-.navbar-toggler .navbar-toggler-icon {
-	color: red !important;
-	border: solid 1px red;
-}
+.navColor {
+	.navbar-brand {
+		color: $mainColor;
 
-.navbar .navbar-toggler .icon-bar {
-	background: red !important;
+		&:hover,
+		&:focus {
+			color: $mainColor;
+		}
+	}
+
+	.navbar-nav {
+		.nav-link {
+			color: $mainColor;
+
+			&:hover,
+			&:focus {
+				color: $navbar-light-hover-color;
+			}
+
+			&.disabled {
+				color: $navbar-light-disabled-color;
+			}
+		}
+
+		.show > .nav-link,
+		.nav-link.active {
+			color: $navbar-light-active-color;
+		}
+	}
+
+	.navbar-toggler {
+		color: $mainColor;
+		border-color: $navbar-light-toggler-border-color;
+	}
+
+	.navbar-toggler-icon {
+		background-image: escape-svg($navbar-light-toggler-icon-bg);
+	}
+
+	.navbar-text {
+		color: $navbar-light-color;
+
+		a,
+		a:hover,
+		a:focus {
+			color: $navbar-light-active-color;
+		}
+	}
 }
