@@ -6,9 +6,11 @@
 	background-color: $gray-200;
 }
 
-.cta-info {
-	// margin: auto 0;
+.round-corners {
+	border-radius: 50%;
+}
 
+.cta-info {
 	margin-top: auto;
 	margin-left: auto;
 }
