@@ -11056,9 +11056,17 @@ textarea.form-control-lg {
   background-color: #e9ecef;
 }
 
+.round-corners {
+  border-radius: 50%;
+}
+
 .cta-info {
   margin-top: auto;
   margin-left: auto;
+}
+
+.center-contact {
+  margin: 10% 10%;
 }
 
 .form {
@@ -11099,7 +11107,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .contact-box__info--title {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 .contact-box__info--subtitle {
@@ -11109,8 +11117,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .contact-box__info--subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
+}
+
+.custom-form {
+  padding: 0.5rem 0;
+  border: 1px solid red;
 }
 
 .footer {
