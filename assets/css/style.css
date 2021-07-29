@@ -10982,6 +10982,42 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+
+.about {
+  position: relative;
+  padding: 1rem 0;
+}
+.about__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.about__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .about__content p {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .about__content {
+    margin-top: 5rem;
+  }
+}
+.about__content .icon {
+  font-size: 1.5rem;
+  color: #e31f51;
+}
+@media (min-width: 992px) {
+  .about__content .icon {
+    margin-top: 2.5rem;
+  }
+}
+.about__pic {
+  max-width: 100%;
+}
+
+
 .testimonials {
   position: relative;
   padding: 0;
