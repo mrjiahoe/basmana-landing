@@ -11201,16 +11201,11 @@ textarea.form-control-lg {
   margin-left: 25%;
 }
 
-.app-icon {
-  height: -50px;
-}
-
 .app-link {
   display: flex;
 }
 .app-link img {
   padding-right: 20px;
-  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
