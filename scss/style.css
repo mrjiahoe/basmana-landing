@@ -5,8 +5,7 @@
 @use 'components/typography';
 @use 'sections/navbar';
 @use 'sections/intro-section';
-@use 'sections/services';
-@use 'sections/testimonials';
+@use 'sections/feature';
 @use 'sections/faq';
 @use 'sections/portfolio';
 @use 'sections/contact';
